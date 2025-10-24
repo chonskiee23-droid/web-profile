@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "title": "Canteen Ordering System",
+      "description": "A Node.js and MySQL-based ordering platform for CSU-Aparri Campus Canteen."
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "A clean, animated personal portfolio with blue highlights and smooth scroll."
+    },
+    {
+      "title": "Student Attendance Tracker",
+      "description": "A web app for monitoring attendance using QR codes and database integration."
+    }
+  ]
+}

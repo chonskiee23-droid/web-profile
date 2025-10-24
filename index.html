@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arison Rigunan | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-    
+  <nav class="navbar">
+    <div class="logo">Arison<span>Rigunan</span></div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <img src="image/mypic.jpg" alt="Profile" class="hero-img" />
+      <h1>Hello, I’m <span>Arison Rigunan</span></h1>
+      <p>Aspiring Web Developer passionate about crafting clean, modern websites.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a student developer from CSU-Aparri, fascinated by web design, coding, and building practical systems that help others. My goal is to
+        become a professional full-stack developer who builds meaningful and impactful digital experiences.
+      </p>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">React</div>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div id="project-list" class="projects"></div>
+    </section>
+
+    <section id="contact" class="card contact">
+      <h2>Contact Me</h2>
+      <p>Let’s connect! You can reach me through any of the platforms below:</p>
+      <div class="contact-links">
+        <a href="mailto:arisonrigunan@gmail.com" class="contact-btn">📧 Email</a>
+        <a href="https://github.com/arisonrigunan" target="_blank" class="contact-btn">💻 GitHub</a>
+        <a href="#" class="contact-btn">🔗 LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Arison Rigunan | Designed with 💙</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
