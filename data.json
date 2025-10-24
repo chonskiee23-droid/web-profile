@@ -1,16 +1,16 @@
 {
   "projects": [
     {
-      "title": "Canteen Ordering System",
-      "description": "A Node.js and MySQL-based ordering platform for CSU-Aparri Campus Canteen."
+      "title": "📚 Avid Reader",
+      "description": "I love exploring inspirational and thought-provoking books that spark new ideas and fuel personal growth."
     },
     {
-      "title": "Portfolio Website",
-      "description": "A clean, animated personal portfolio with blue highlights and smooth scroll."
+      "title": "🎸 Guitar Enthusiast",
+      "description": "Playing the guitar is my creative outlet, allowing me to express myself through music and rhythm."
     },
     {
-      "title": "Student Attendance Tracker",
-      "description": "A web app for monitoring attendance using QR codes and database integration."
+      "title": "🎮 Gamer at Heart",
+      "description": "I enjoy immersing myself in the world of gaming, where strategy, creativity, and fun collide    ."
     }
   ]
 }
